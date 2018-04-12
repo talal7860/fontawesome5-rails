@@ -1,8 +1,6 @@
 # Fontawesome5::Rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fontawesome5/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gems makes easy to include [fontawesome 5](https://fontawesome.com/) in your rails project. This gem does not provide an upgrade for fontawesome 4 users. Please don't use this gem if you want to upgrade your current fontawesome 4 icons. I didn't find the [SVG with JS](https://fontawesome.com/get-started/svg-with-js) version very nice so, I'm just using the [Web Fonts with CSS](https://fontawesome.com/get-started/web-fonts-with-css).
 
 ## Installation
 
@@ -22,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just add this to your application.css file
+```ruby
+*= require 'fontawesome5-rails'
+```
+or this to your scss file
+```ruby
+@import "fontawesome5-rails"
+```
 
 ## Development
 
@@ -32,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/fontawesome5-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/talal7860/fontawesome5-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +45,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Fontawesome5::Rails project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/fontawesome5-rails/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Fontawesome5::Rails project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/talal7860/fontawesome5-rails/blob/master/CODE_OF_CONDUCT.md).
