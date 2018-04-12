@@ -4,7 +4,7 @@ require File.expand_path('../lib/fontawesome5-rails/version', __FILE__)
 Gem::Specification.new do |spec|
   spec.name          = 'fontawesome5-rails'
   spec.version       = Fontawesome5::Rails::VERSION
-  spec.authors       = ['Talal Arshad']
+  spec.authors       = ['talal7860']
   spec.email         = ['talal7860@gmail.com']
 
   spec.summary       = %q{This gem will load font awesome 5 assets in your rails application}
