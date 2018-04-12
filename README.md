@@ -21,11 +21,11 @@ Or install it yourself as:
 ## Usage
 
 Just add this to your application.css file
-```ruby
+```css
 *= require 'fontawesome5-rails'
 ```
 or this to your scss file
-```ruby
+```scss
 @import "fontawesome5-rails"
 ```
 
