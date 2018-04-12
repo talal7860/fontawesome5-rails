@@ -1,4 +1,4 @@
-# Fontawesome5::Rails
+# Fontawesome 5 for Rails
 
 This gems makes easy to include [fontawesome 5](https://fontawesome.com/) in your rails project. This gem does not provide an upgrade for fontawesome 4 users. Please don't use this gem if you want to upgrade your current fontawesome 4 icons. I didn't find the [SVG with JS](https://fontawesome.com/get-started/svg-with-js) version very nice so, I'm just using the [Web Fonts with CSS](https://fontawesome.com/get-started/web-fonts-with-css).
 
@@ -45,4 +45,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Fontawesome5::Rails project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/talal7860/fontawesome5-rails/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Fontawesome 5 Rails project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/talal7860/fontawesome5-rails/blob/master/CODE_OF_CONDUCT.md).
