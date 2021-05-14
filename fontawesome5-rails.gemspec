@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require File.expand_path('../lib/fontawesome5-rails/version', __dir__)
+require File.expand_path('../lib/fontawesome5-rails/version', __FILE__)
 
 Gem::Specification.new do |spec|
   spec.name          = 'fontawesome5-rails'
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 2.1.0'
+  spec.add_development_dependency 'bundler', '~> 2.2.0'
   spec.add_development_dependency 'railties', '>= 5.2.0', '>= 6.0.3'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
